@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling Text and Fonts</title>
+  <style>
+    /* Applying a sans-serif font to the entire document */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Font Properties */
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      text-shadow: 3px 3px 5px red;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: lighter;
+      text-transform: uppercase;
+    }
+
+    /* Text Alignment */
+    p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    /* Text Transformation */
+    section:nth-child(3) p {
+      text-transform: capitalize;
+    }
+
+    /* Text Shadow */
+    section:nth-child(4) p {
+      text-shadow: 2px 2px 5px gray;
+    }
+
+    /* Lists Styling */
+    ul {
+      list-style-type: square;
+    }
+
+    ol {
+      list-style-type: upper-roman;
+    }
+
+    /* Spacing */
+    li {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Text Styling Lab</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Font Properties</h2>
+      <p>The font-family, font-size, and font-weight characteristics are used in this paragraph as an example.</p>
+    </section>
+    <section>
+      <h2>Text Alignment</h2>
+      <p>The text-align property is used to align text, as this paragraph illustrates.</p>
+    </section>
+    <section>
+      <h2>Transforming Text</h2>
+      <p>This passage exemplifies capitalization, lowercase, and uppercase text capitalization.</p>
+    </section>
+    <section>
+      <h2>Text Shadow</h2>
+      <p>This paragraph demonstrates how to add shadow effects to text.</p>
+    </section>
+    <section>
+      <h2>Lists</h2>
+      <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+      </ul>
+      <ol>
+        <li>First Step</li>
+        <li>Second Step</li>
+        <li>Third Step</li>
+      </ol>
+    </section>
+  </main>
+  <footer>
+    <p>Styling Text and Fonts Lab </p>
+  </footer>
+</body>
+</html>
